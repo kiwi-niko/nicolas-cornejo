@@ -1,6 +1,8 @@
 body {
+  font-family:
+
   text-align: center;
-  color: #000f08;
+  color: #000000;
   margin: 0;
   color: white;
 }
@@ -10,28 +12,40 @@ body * {
   border: 0;
   padding: 0;
 }
+header{margin-right: 0;}
+.black{
+  height: 500PX;
+  color: white;
+  text-align:center;}
 h2{
   font-size: 35px;
   text-align: center;
   color: black;
 }
+.contenedorb{
+  height: 500px; width: 350px;
+  margin: 0;
+}
 .hero-section {
   text-align: center;
-  height: 750px;
+  height: 700px;
   background-image: url('../img/bg_hero.jpg');
+  background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   color: #ffffff;
-  padding: 6.25rem 3.125rem;
   font-size: 40pt;
 }
 .title{
   padding-top:390px;
-  align-items: center;
 }
 .line{
   border-bottom-width: 1px;
   border-bottom-style: solid;
   text-align: center;
+}
+.subrrallado {
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
 }
